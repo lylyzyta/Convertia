@@ -1,0 +1,22 @@
+{
+  "name": "convertia",
+  "version": "1.0.0",
+  "description": "Proyecto creado para prueba técnica de Convertia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lylyzyta/Convertia.git"
+  },
+  "author": "Liliana Hernández Castelán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lylyzyta/Convertia/issues"
+  },
+  "homepage": "https://github.com/lylyzyta/Convertia#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
