@@ -53,19 +53,22 @@ function home() {
 
   const homeImgContainerRight = document.createElement('div');
   homeImgContainerRight.classList.add('home-img-container');
-
-
   const homeCliente = document.createElement('img');
   homeCliente.classList.add('home-img');
   homeCliente.src = '../assets/home2.png';
-
+  const buttonAtc = document.createElement('button');
+  buttonAtc.classList.add('button-atc');
+  buttonAtc.textContent = 'ERES CLIENTE Y NECESITAS AYUDA';
+  buttonAtc.addEventListener('click', () => {
+    onNavigate('/atc');
+  });
 
 
 
   homeNavContainer.append(homeContact, homeLogo);
   homeImgContainerLeft.append(homeContrata,homeParagraphOne,homeParagraphTwo,
     homeParagraphTree,buttonBuyNow);
-  homeImgContainerRight.append(homeCliente);
+  homeImgContainerRight.append(homeCliente, buttonAtc);
   homeImgContainer.append(homeImgContainerLeft,homeImgContainerRight);
   homeContainer.append(homeNavContainer, homeImgContainer); 
    return homeContainer;
