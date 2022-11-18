@@ -1,401 +1,105 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
- 
-  }
+    box-sizing: border-box;
+
+}
 
 body {
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Cairo', sans-serif;
-    font-weight: 700;
-    color: black; 
-    
+    width: 99vw;
+    height: 99vh;
 }
 
 #root {
-    width: 100vw;
-    height: 100vh;
-    color: rgb(237, 245, 226);
-    border: 10px solid red;
-  
- }
+    width: 99vw;
+    height: 99vh;
+}
 
-.startContainer {
-    width: 90vw;
-    height: 100vh;
+.home-container {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:center;
-    color: black; 
 }
 
-.startdoll {
-    margin: 0;
-    width: 100vw; 
+/*navbar*/
+.navbar-container {
+    background-color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center; 
 }
-.logoMuñe {
-    width: 14em;
-    margin-top: 4.5em;
-    justify-self: center;
-    align-self: center;
+
+.img-contact {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
 }
-.titleStart{
-    margin-top: 0em;
-    width: 15em;
-    justify-self: center;
-    align-self: center;
+
+.img-logo {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 500px;
 }
-.startInputs {
-    width: 100vw;
-    height: auto;
+
+/*home*/
+.home-img-container {
+    order: 10px solid green;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.home.img-container-left {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 10px solid green;
+
 }
 
-.loginButton {
-    width: 60vw;
-    height: 5vh;
-    border-radius: 30px;
-    background-color: #86B6E1;
-    border: solid 1px rgb(21, 71, 1);
-    box-shadow: 8px 5px 5px rgb(125, 125, 126); 
-    text-align: center;
-    margin: 10px;
-    font-size: 1.5em;
-}
-
-.startContainerlogin{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows:10% 50% 40%;
-    justify-content: center; 
-}
-
-.topInfologin{
-    width: 95vw;
-    height: 10vh;
-    top:1%;
-    display: grid;
-    grid-template-columns:70% 30%;
-    justify-content: space-around;
-}
-
-.topInfo{
-    width: 90vw;
-    height: 10vh;
-    margin:1em;
-    display: grid;
-    grid-template-columns:40% 60%;
-    justify-content: space-around;
-}
-.userName{
-    width: 80%;
-    height: 40%;
-    background-color: transparent; 
-    justify-self: flex-start;
-    align-self: center;
-    color: #390992;
-    font-family: 'Cairo', sans-serif;
-    font-size:1.5em;
-    font-style: normal;
-    font-weight: bolder;
-}
- .logoHome{
-    max-width: 4em;
-    top:5%;
-    margin: auto;
-}
- .titleTop{
-    max-width: 10em;    
-    top:1%;
-  }
-.logoMuñelogin {
-    width: 60%;
-    align-self: center;
-    justify-self: center;
-}
-.loginForm {
-    /* display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center; */
-    display: grid;
-    grid-template-rows:auto;
-    align-items:center;
-    justify-content: center;
-}
-.loginInput {
-    height: 6vh;
-    width: 60vw;
-    border-radius: 10px;
-    background-color: #c8d5e0;
-    box-shadow: 8px 5px 5px rgb(125, 125, 126) ;
-    margin: auto;
-    text-align: center;
-    display: grid;
-    grid-template-rows:auto;
-    align-items:center;
- 
-}
-
-.loginText{
-    text-align: center;
-    padding: .5em;
-    color: green;
-}
-.logoGoogle{
-    max-width: 5em;
-    justify-self: center;   
-}
-.startContaineraccount{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows:10% 50% 40%;
-    justify-content: center; 
-}
-.accountContainer{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    align-items: stretch;
-    justify-items: stretch;
-}
-
-.postContainer {
-    width: 90vw;
-    height: 100vh;
-    margin: 8px, 8px;
-    display: grid;
-    grid-template-rows: 10% 40% 20% 20%; 
-    align-items: stretch;
-    justify-items: stretch;
-    
-}
-
-.logoMuñePost{
-     max-width: 5em;
-     padding: 1em;
-     justify-self: flex-end;
- }
-
-.lupaPost {
-     width:3.5em;
- }
-
-.sendiconPost{
-    width:2em;
-    z-index: 2;
-    
- }
-
-.postInput {
-     margin-top: 20px;
-     width: 90vw;
-     padding: 10px;
-     border: solid .1px green;
-     height:fit-content;
-     box-shadow: 8px 5px 5px rgb(125, 125, 126); 
- }
- 
-.posts{
-    margin-top: 5px;
-}
-
- .menuPost{
-    width: 100vw;
-    height: 15vh;
-    top: 85%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+.home-img-one {
     position: absolute;
-    justify-content: space-around;
- }
- .oldPost{
-    width: 100vw;
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color:black;
-    background-color: rgb(222, 245, 225);
-    box-shadow: 8px 5px 5px rgb(125, 125, 126); 
-    contain: content; 
-    overflow: scroll;  
-    align-items: center;
-    justify-content: center;
+    z-index: -1;
+    margin-left: 30px;
+}
+
+.home-p-one {
+    margin-top: 240px;
+    margin-left: 135px;
+    width: 450px;
+    text-align: left;
+    font: normal normal 900 60px/72px Roboto;
+    letter-spacing: 0px;
+    color: #0063BC;
+    background-color: white;
+    z-index: 1;
+}
+
+.home-p-two {
+    width: 507px;
+    margin-left: 135px;
+    text-align: left;
+    font: normal normal 900 60px/72px Roboto;
+    letter-spacing: 0px;
+    color: #0063BC;
+    background-color: white;
+    z-index: 1;
+}
+
+.home-p-tree {
+    width: 350px;
+    margin-left: 135px;
+    text-align: left;
+    font: normal normal 900 60px/72px Roboto;
+    letter-spacing: 0px;
+    color: #0063BC;
+    background-color: white;
+    z-index: 1;
+}
+
+.button-buy {
+    width: 320px;
+    height: 45px;
+    margin-left: 135px;
+    background: #0063BC 0% 0% no-repeat padding-box;
+    color: white;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
     position: absolute;
-    top: 30%;
-
-}
-.newPostcontainer{
-    width: 100vw;
-    height: 20vh;
-    top: 65%;
-    position: absolute;
-    display: grid;
-    grid-template-rows: 30% 70%; 
-    border: .5em solid  #86B6E1;
-    border-radius: 5%;
-    background-color:  whitesmoke;
-}
-
-.newEditcontainer{
-    width: 85vw;
-    height: 20vh;
-    margin: 1em;
-    position: absolute;
-    display: grid;
-    grid-template-rows: 30% 70%; 
-    border: .5em solid  #6a6c6d;
-    border-radius: 5%;
-    background-color:  whitesmoke;
-}
-
-.postNewInput{
-    width: 100%;
-    height: 40%;
-    align-items: center;
-    position: absolute;
-    top: 0%;
-}
-
-.itemsContainer {
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20%; 
-    align-self: flex-end;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
-}
-/* p {
-    width: 90vw;
-    height: 8vh; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: solid 1px rgb(21, 71, 1);
-    background-color: rgb(253, 253, 253);
-    align-self: center;  
-    margin: auto;
-} */
-
-p{
-    color: #000000;
-}
-
-.like {
-    width: 3vw;
-}
-
-.eachOldPost{
-    height: 15em;
-    background-color: #390992;
+    z-index: 1;
 }
 
 
- .showPostusers{
-  width: 90vw;
-  height: 60vh;
-  position:absolute;
-  margin: 9em 3em;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  overflow: scroll; 
-}
-/*Info users */
- .showPostusersInfo{
-    width: 100%;
-    height: 40vh ;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center; 
-       
- }
-
- .showPostusersName{
-    width: 90%;
-    height: 100%;
-    color: #86B6E1;
- }
- .showPostusersTime{
-    width: 90%;
-    height: 100%;
-  }
- /*Post */
- .showPostinfo{
-    width: 80vw;
-    height: 40vh;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    border-top:  .5px solid #86B6E1;
-    font-size: 1em;     
- }
-
- .showPostcontents{
-    width: 98%;
-    height: 98%;
-    
-}
- /*Contador de likes*/
- .postCount{
-    width: 70vw;
-    height: 4em;
-    justify-self: center;
-   display: flex;
-   justify-content: flex-end;
- }
- .postCountlikes{
-    width: 10%;
-    height: 10%;
- }
- .postCountlikesImg{
-    width: 2em;
-    height: 1.5em;
-    align-self: center;
-    justify-content: flex-start;
-    
-}
- 
-.postCountlikesSum{
-    width: 10%;
-    height: 5%;
-    font-size: 1em;
- }
- 
-    .newEditContainer{
-        width: 80vw;
-        height: 20vh;
-        display: grid;
-        grid-template-rows: 30% 70%; 
-        border: .7em solid  #727374;
-        border-radius: 5%;
-        background-color:  whitesmoke;
-    }   
-
-
-
-/* .itemsContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:1fr 1fr;
-    align-items: center;
-    justify-content: center;
-
-} */
