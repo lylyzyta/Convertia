@@ -24,6 +24,7 @@ body {
 .navbar-container {
     background-color: white;
     display: flex;
+    box-shadow: 0px 4px 8px #00000040;
 }
 
 .img-contact {
@@ -35,12 +36,11 @@ body {
 .img-logo {
     cursor: pointer;
     margin-top: 10px;
-    margin-left: 500px;
+    margin-left: 585px;
 }
 
 /*home*/
 .home-img-container {
-    order: 10px solid green;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -115,4 +115,191 @@ body {
     z-index: 1;
 }
 
+/*contrata*/
 
+.contrata-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contrata-first-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 90vh;
+    width: 98vw;
+    background-image: url('../assets/drew-graham-PVyhz0wmHdo-unsplash.png');
+    background-position: center;
+}
+
+.contrata-p-one {
+    margin-top: 140px;
+    text-align: left;
+    font: normal normal normal 50px/61px Roboto;
+    letter-spacing: 0px;
+    color: #141414;
+    width: 550px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.contrata-p-two {
+    text-align: left;
+    font: normal normal bold 30px/37px Roboto;
+    letter-spacing: 0px;
+    color: #141414;
+    width: 550px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.contrata-p-tree {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 12px 25px #2424241A;
+    text-align: left;
+    margin-top: 30px;
+    letter-spacing: NaNpx;
+    color: #141414;
+    width: 150px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.button-get {
+    width: 220px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 50px;
+    background: #0063BC 0% 0% no-repeat padding-box;
+    color: white;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+}
+
+.contrata-form {
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 280px;
+    margin-top: 140px;
+    margin-left: 280px;
+    box-shadow: 2px 2px 5px 1px #a5a8a8;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+}
+
+.contrata-form-title {
+    background: #0063BC 0% 0% no-repeat padding-box;
+    border-radius: 23px 23px 0px 3px;
+    text-align: center;
+    font: normal normal bold 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    height: 70px;
+    padding: 30px;
+}
+
+.contrata-form-paragraph {
+    text-align: center;
+    font: normal normal bold 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #0063BC;
+    opacity: 1;
+}
+
+.contrata-form-label {
+    text-align: center;
+    font: normal normal normal 9px/10px Arial;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: 100px;
+
+}
+
+.contrata-form-input {
+    margin-left: 40px;
+    width: 225px;
+    height: 28px;
+    font: normal normal bold 9px/10px Arial;
+    letter-spacing: 0px;
+    color: #BFB8AE;
+    border: 0.5px solid black;
+}
+
+.contrata-form-accept {
+    width: 10px;
+    height: 10px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contrata-form-acceptP {
+    text-align: center;
+    font: normal normal bold 9px/10px Arial;
+    letter-spacing: 0px;
+    color: #BFB8AE;
+    margin-top: 10px;
+
+}
+
+.button-call {
+    width: 225px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 17px/20px Roboto;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #FF6A00 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 40px;
+}
+
+.contrata-second-container {
+    margin-top: 40px;
+    height: 15vh;
+    width: 98vw;
+    background-image: url('../assets/nordwood-themes-bJjsKbToY34-unsplash.png');
+    background-position: center;
+}
+
+.button-triple {
+    width: 225px;
+    height: 45px;
+     letter-spacing: 0.42px;
+    color: #FFFFFF;
+    background: #0063BC 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    margin-left: 420px;
+    margin-top: 40px;
+    text-align: center;
+    font: normal normal bold 17px/20px Roboto;
+}
+.button-double {
+    width: 225px;
+    height: 45px;
+    margin-left: 150px;
+    text-align: center;
+    font: normal normal bold 17px/20px Roboto;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    background: #0063BC 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+
+}
+
+
+.contrata-third-container {
+    margin-top: 60px;
+    height: 50vh;
+    width: 98vw;
+
+    border: 10px solid purple;
+ 
+}

@@ -1,9 +1,9 @@
+import { contrata } from "../views/contrata.js";
 import {home} from "../views/home.js";
-import {contact} from "../views/contrata.js";
 
 const routes = { /*objeto con distintas propiedades *///eslint-disable-line
   '/': home,
-  '/contact': contact,
+  '/contrata': contrata,
  
 };
 

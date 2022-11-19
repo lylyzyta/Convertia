@@ -1,28 +1,9 @@
+import {navbarHome} from '../components/navbar.js';
 import {onNavigate} from '../routes/app.js';
 
 function home() {
   const homeContainer = document.createElement('div');
   homeContainer.classList.add('home-container');
-
-
-  const homeNavContainer = document.createElement('nav');
-  homeNavContainer.classList.add('navbar-container');
-
-  const homeContact = document.createElement('img');
-  homeContact.classList.add('img-contact');
-  homeContact.src = '../assets/phone.png';
-  homeContact.alt = "Telephone";
-  homeContact.addEventListener('click', () => {
-    onNavigate('/contact');
-  });
-  const homeLogo = document.createElement('img');
-  homeLogo.classList.add('img-logo');
-  homeLogo.src = '../assets/Logo.png';
-  homeLogo.alt = 'Logo'
-  homeLogo.addEventListener('click', () => {
-    onNavigate('/');
-  });
-
     
   const homeImgContainer = document.createElement('div');
   homeImgContainer.classList.add('home-img-container');
@@ -65,12 +46,11 @@ function home() {
 
 
 
-  homeNavContainer.append(homeContact, homeLogo);
-  homeImgContainerLeft.append(homeContrata,homeParagraphOne,homeParagraphTwo,
+   homeImgContainerLeft.append(homeContrata,homeParagraphOne,homeParagraphTwo,
     homeParagraphTree,buttonBuyNow);
   homeImgContainerRight.append(homeCliente, buttonAtc);
   homeImgContainer.append(homeImgContainerLeft,homeImgContainerRight);
-  homeContainer.append(homeNavContainer, homeImgContainer); 
+  homeContainer.append(navbarHome(), homeImgContainer); 
    return homeContainer;
 }
 
