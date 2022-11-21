@@ -219,7 +219,7 @@ body {
 
 .contrata-form-input {
     margin-left: 40px;
-    width: 225px;
+    width: 235px;
     height: 28px;
     font: normal normal bold 9px/10px Arial;
     letter-spacing: 0px;
@@ -296,10 +296,90 @@ body {
 
 
 .contrata-third-container {
-    margin-top: 60px;
-    height: 50vh;
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10%;
+    justify-content:center;
+     height: 130vh;
     width: 98vw;
+}
 
-    border: 10px solid purple;
- 
+.contrata-pk{
+    width: 80vw;
+    height: 10vh;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 10% 60% 25%;
+    justify-content: flex-end;
+    align-items:center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 12px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+}
+.contrata-pk-p{
+    text-align: left;
+font: normal normal bold 18px/22px Roboto;
+letter-spacing: 0px;
+color: #434343;
+opacity: 1
+}
+.button-get-pk {
+    width: 220px;
+    height: 45px;
+    background: #0063BC 0% 0% no-repeat padding-box;
+    color: white;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.contrata-pk-second{
+    width: 80vw;
+    height: 10vh;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 20%  10% 40% 25%;
+    justify-content: flex-end;
+    align-items:center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 12px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+}
+.contrata-pk-p-second{
+    text-align: left;
+    font: normal normal bold 22px/27px Roboto;
+    letter-spacing: 0px;
+    color: #434343;
+    opacity: 1;
+}
+
+.contrata-fifth-container{
+     display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content:center;
+     height: 60vh;
+    width: 98vw;
+}
+
+.contrata-pk-third{
+    width: 80vw;
+    height: 10vh;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 70%  25% ;
+    justify-content: flex-end;
+    align-items:center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 12px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+
+/*footer*/
+
+.footer-container{
+    border: 10px solid pink;
 }

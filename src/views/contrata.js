@@ -1,4 +1,8 @@
+import {footer} from '../components/footer.js';
 import {navbarContrata} from '../components/navbar.js';
+import {packageFirst} from '../components/packageFirst.js';
+import {packageSecond} from '../components/packageSecond.js';
+
 
 function contrata() {
   const contrataContainer = document.createElement('div');
@@ -44,6 +48,9 @@ function contrata() {
   contrataFormInput.type = "txt"; contrataFormInput.value = "Tu teléfono";
   const contrataFormAccept = document.createElement('div');
   contrataFormAccept.classList.add('contrata-form-accept');
+  const  contrataFormAcceptCheck = document.createElement('input');
+  contrataFormAcceptCheck.classList.add('contrata-form-accept-check');
+  contrataFormAcceptCheck.setAttribute("type", "checkbox");
   const  contrataFormAcceptP = document.createElement('p');
   contrataFormAcceptP.classList.add('contrata-form-acceptP');
   contrataFormAcceptP.textContent='He leído y acepto las políticas de privacidad.';
@@ -66,22 +73,14 @@ function contrata() {
   buttonDoublePack.textContent = 'Doble Pack';
 
 
-  const contrataThirdContainer = document.createElement('div');
-  contrataThirdContainer.classList.add('contrata-third-container');
-
-
-
-  
-
-
-  contrataSecondContainer.append(buttonTriplePack, buttonDoublePack)
+  contrataSecondContainer.append(buttonTriplePack, buttonDoublePack);
   contrataForm.append(contrataFormTitle, contrataFormParagraph, contrataFormLabel, 
-  contrataFormInput, contrataFormAcceptP, buttonCall);
+  contrataFormInput, contrataFormAcceptCheck,contrataFormAcceptP, buttonCall);
   contrataContainerRight.append(contrataForm);
   contrataContainerLeft.append(contrataParagraphOne, contrataParagraphTwo, contrataParagraphTree, buttonGet)
    contrataFirstContainer.append(contrataContainerLeft, contrataContainerRight)
    contrataContainer.append(navbarContrata(), contrataFirstContainer, 
-   contrataSecondContainer, contrataThirdContainer); 
+   contrataSecondContainer, packageFirst(), packageSecond(), footer()); 
    return contrataContainer;
 }
 
