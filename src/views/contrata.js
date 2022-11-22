@@ -1,4 +1,4 @@
-import { double_triplePack } from '../components/double_triplePack.js';
+import {double_triplePack} from '../components/double_triplePack.js';
 import {footer} from '../components/footer.js';
 import {navbarContrata} from '../components/navbar.js';
 import {packageFirst} from '../components/packageFirst.js';
@@ -24,12 +24,6 @@ function contrata() {
   contrataParagraphTree.classList.add('contrata-p-tree');
   contrataParagraphTree.textContent = 'Desde $499 al mes';
 
-  const buttonGet = document.createElement('button');
-  buttonGet.classList.add('button-get');
-  buttonGet.textContent = 'Lo quiero';
-  buttonGet.addEventListener('click', () => {
-    onNavigate('/');
-  });
 
   const contrataContainerRight = document.createElement('div');
   contrataContainerRight.classList.add('contrata-container-right');
