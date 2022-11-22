@@ -1,3 +1,4 @@
+import { double_triplePack } from '../components/double_triplePack.js';
 import {footer} from '../components/footer.js';
 import {navbarContrata} from '../components/navbar.js';
 import {packageFirst} from '../components/packageFirst.js';
@@ -36,7 +37,7 @@ function contrata() {
   contrataForm.classList.add('contrata-form');
   const contrataFormTitle = document.createElement('h1');
   contrataFormTitle.classList.add('contrata-form-title');
-  contrataFormTitle.textContent='Contrata ahora!'
+  contrataFormTitle.textContent='¡Contrata ahora!'
   const contrataFormParagraph = document.createElement('h1');
   contrataFormParagraph.classList.add('contrata-form-paragraph');
   contrataFormParagraph.textContent='Déjanos tu número   y te llamamos en segundos';
@@ -46,9 +47,7 @@ function contrata() {
   const contrataFormInput = document.createElement('input');
   contrataFormInput.classList.add('contrata-form-input');
   contrataFormInput.type = "txt"; contrataFormInput.value = "Tu teléfono";
-  const contrataFormAccept = document.createElement('div');
-  contrataFormAccept.classList.add('contrata-form-accept');
-  const  contrataFormAcceptCheck = document.createElement('input');
+   const  contrataFormAcceptCheck = document.createElement('input');
   contrataFormAcceptCheck.classList.add('contrata-form-accept-check');
   contrataFormAcceptCheck.setAttribute("type", "checkbox");
   const  contrataFormAcceptP = document.createElement('p');
@@ -61,26 +60,14 @@ function contrata() {
     onNavigate('/atc');
   });
 
-  const contrataSecondContainer = document.createElement('div');
-  contrataSecondContainer.classList.add('contrata-second-container');
 
-  const buttonTriplePack = document.createElement('button');
-  buttonTriplePack .classList.add('button-triple');
-  buttonTriplePack .textContent = 'Triple Pack';
-
-  const buttonDoublePack = document.createElement('button');
-  buttonDoublePack.classList.add('button-double');
-  buttonDoublePack.textContent = 'Doble Pack';
-
-
-  contrataSecondContainer.append(buttonTriplePack, buttonDoublePack);
   contrataForm.append(contrataFormTitle, contrataFormParagraph, contrataFormLabel, 
   contrataFormInput, contrataFormAcceptCheck,contrataFormAcceptP, buttonCall);
   contrataContainerRight.append(contrataForm);
   contrataContainerLeft.append(contrataParagraphOne, contrataParagraphTwo, contrataParagraphTree, buttonGet)
    contrataFirstContainer.append(contrataContainerLeft, contrataContainerRight)
    contrataContainer.append(navbarContrata(), contrataFirstContainer, 
-   contrataSecondContainer, packageFirst(), packageSecond(), footer()); 
+   double_triplePack(), packageFirst(), double_triplePack(), packageSecond(), footer()); 
    return contrataContainer;
 }
 

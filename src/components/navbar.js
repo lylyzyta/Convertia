@@ -13,7 +13,7 @@ export function navbarHome() {
   });
   const navLogo = document.createElement('img');
   navLogo.classList.add('img-logo');
-  navLogo.src = '../assets/Logo.png';
+  navLogo.src = '../assets/megacable.png';
   navLogo.alt = 'Logo'
   navLogo.addEventListener('click', () => {
     onNavigate('/');
@@ -37,7 +37,7 @@ export function navbarContrata() {
     });
     const navLogo = document.createElement('img');
     navLogo.classList.add('img-logo');
-    navLogo.src = '../assets/Logo.png';
+    navLogo.src = '../assets/megacable.png';
     navLogo.alt = 'Logo'
     navLogo.addEventListener('click', () => {
       onNavigate('/');
