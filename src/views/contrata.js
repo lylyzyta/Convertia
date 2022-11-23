@@ -25,7 +25,7 @@ function contrata() {
   contrataParagraphTree.textContent = 'Desde $499 al mes';
   const buttonGet = document.createElement('button');
   buttonGet.classList.add('button-get');
-  buttonGet.textContent = 'Lo quiero';
+  buttonGet.textContent = 'LO QUIERO';
   buttonGet.addEventListener('click', () => {
     onNavigate('/');
   });

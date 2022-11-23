@@ -64,13 +64,13 @@ function atc() {
     const atcFourthContainer = document.createElement('div');
     atcFourthContainer.classList.add('atc-fourth-container');
     const atcEmailImg = document.createElement('img');
-    atcEmailImg.classList.add('atc-img');
+    atcEmailImg.classList.add('atc-img-email');
     atcEmailImg.src = '../assets/correo.svg';
     const atcEmailP = document.createElement('p');
     atcEmailP.classList.add('atc-contact-p');
     atcEmailP.textContent="atencionclientes@xxxx.com.mx";
     const atcPhoneImg = document.createElement('img');
-    atcPhoneImg.classList.add('atc-img');
+    atcPhoneImg.classList.add('atc-img-email');
     atcPhoneImg.src = '../assets/phone_white.png';
     const atcPhoneP = document.createElement('p');
     atcPhoneP.classList.add('atc-contact-p');
