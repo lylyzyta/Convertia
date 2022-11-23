@@ -48,7 +48,7 @@ export function navbarContrata() {
       onNavigate('/');
     });
     const navPin = document.createElement('img');
-    navPin.classList.add('img-logo');
+    navPin.classList.add('img-alfiler');
     navPin.src = '../assets/alfiler.svg';
     navPin.alt = 'Logo';
     navPin.addEventListener('click', () => {

@@ -60,13 +60,25 @@ Por medio de JavaScript realicé la maquetación de la presente Single Page Appl
 
 + App construida
 
+Versión Desktop
+
 ![p_app01](src/assets/Home.JPG)
 ![p_app02](src/assets/Contrata.JPG)
 ![p_app03](src/assets/ATC.JPG)
 ![p_app04](src/assets/Popup.JPG)
 ![p_app05](src/assets/Popupcober.JPG)
-![p_app05](src/assets/Navbar.JPG)
-![p_app06](src/assets/Footer.JPG)
+![p_app06](src/assets/Navbar.JPG)
+![p_app07](src/assets/Footer.JPG)
+
+Versión Mobile
+
+![p_app01_m](src/assets/Home_mobile.JPG)
+![p_app02_m](src/assets/Contrata_mobile.JPG)
+![p_app03_m](src/assets/ATC_mobile.JPG)
+![p_app04_m](src/assets/Popup_mobile.JPG)
+![p_app05_m](src/assets/Popupcober_mobile.JPG)
+![p_app06_m](src/assets/Navbar_mobile.JPG)
+
 
 
 ##### 4. Instrucciones detalladas de cómo instalar las dependencias y ejecutar el proyecto

@@ -58,7 +58,7 @@ export function packageFirst() {
     contrataPkFifthPOne.classList.add('contrata-pk-p-second');
     contrataPkFifthPOne.textContent='XVIEW TOTAL 200';
     const contrataPkFifthImg = document.createElement('img');
-    contrataPkFifthImg.classList.add('contrata-pk-img');
+    contrataPkFifthImg.classList.add('contrata-pk-img-second');
     contrataPkFifthImg.src = '../assets/Imagen 4.png';
     const  contrataPkFifthPTwo = document.createElement('p');
     contrataPkFifthPTwo.classList.add('contrata-pk-p');
@@ -74,7 +74,7 @@ export function packageFirst() {
     contrataPkSixthPOne.classList.add('contrata-pk-p-second');
     contrataPkSixthPOne.textContent='XVIEW TOTAL 350';
     const contrataPkSixthImg = document.createElement('img');
-    contrataPkSixthImg.classList.add('contrata-pk-img');
+    contrataPkSixthImg.classList.add('contrata-pk-img-second');
     contrataPkSixthImg.src = '../assets/Imagen 5.png';
     const  contrataPkSixthPTwo = document.createElement('p');
     contrataPkSixthPTwo.classList.add('contrata-pk-p');
@@ -91,7 +91,7 @@ export function packageFirst() {
     contrataPkSeventhPOne.classList.add('contrata-pk-p-second');
     contrataPkSeventhPOne.textContent='XVIEW TOTAL 500';
     const contrataPkSeventhImg = document.createElement('img');
-    contrataPkSeventhImg.classList.add('contrata-pk-img');
+    contrataPkSeventhImg.classList.add('contrata-pk-img-second');
     contrataPkSeventhImg.src = '../assets/Imagen 6.png';
     const  contrataPkSeventhPTwo = document.createElement('p');
     contrataPkSeventhPTwo.classList.add('contrata-pk-p');
@@ -106,7 +106,7 @@ export function packageFirst() {
     contrataPkEighthPOne.classList.add('contrata-pk-p-second');
     contrataPkEighthPOne.textContent='XVIEW TOTAL 1GB';
     const contrataPkEighthImg = document.createElement('img');
-    contrataPkEighthImg.classList.add('contrata-pk-img');
+    contrataPkEighthImg.classList.add('contrata-pk-img-second');
     contrataPkEighthImg.src = '../assets/Imagen 7.png';
     const  contrataPkEighthPTwo = document.createElement('p');
     contrataPkEighthPTwo.classList.add('contrata-pk-p');

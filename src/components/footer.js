@@ -44,7 +44,7 @@ export function footer(){
     footerContactAcceptP.textContent='He leído y acepto las políticas de privacidad.';
     
     const buttonSolicit = document.createElement('button');
-    buttonSolicit.classList.add('button-call');
+    buttonSolicit.classList.add('button-call-footer');
     buttonSolicit.textContent = 'SOLICITAR';
 
     footerInfoPOne.append(footerContactPOne, footerContactPTwo)
