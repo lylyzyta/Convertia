@@ -115,7 +115,7 @@ Aproximadamente 2 semanas.
 
 Aproximadamente 2.5 semanas.
 
-Cabe señalar que los tiempos mencionados anteriormente es sin usar ningún tipo de framework adicional a JavaScript.
+Cabe señalar que los tiempos mencionados anteriormente son calculados sin usar ningún tipo de framework adicional a JavaScript, ya que al utilizar más herramientas el tiempo de entrega sería menor.
 
 
 
