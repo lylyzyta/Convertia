@@ -1,5 +1,6 @@
 import {onNavigate} from '../routes/app.js';
 import {popup} from './popup.js';
+import {popupcober} from './popupcober.js';
 
 
 export function navbarHome() {
@@ -37,7 +38,7 @@ export function navbarContrata() {
     navContact.src = '../assets/phone.png';
     navContact.alt = "Telephone";
     navContact.addEventListener('click', () => {
-      onNavigate('/contact');
+      navContainer.appendChild(popup())
     });
     const navLogo = document.createElement('img');
     navLogo.classList.add('img-logo');
@@ -51,7 +52,7 @@ export function navbarContrata() {
     navPin.src = '../assets/alfiler.svg';
     navPin.alt = 'Logo';
     navPin.addEventListener('click', () => {
-      onNavigate('/');
+      navContainer.appendChild(popupcober())
     });
   
     navContainer.append(navContact, navLogo, navPin);

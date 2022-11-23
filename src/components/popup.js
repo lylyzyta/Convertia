@@ -1,4 +1,3 @@
-import {onNavigate} from '../routes/app.js';
 
 function popup() {
   const sectionOverlay = document.createElement('section');
