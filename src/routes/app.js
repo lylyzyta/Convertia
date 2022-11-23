@@ -2,13 +2,10 @@ import {home} from "../views/home.js";
 import {contrata} from "../views/contrata.js";
 import {atc} from "../views/atc.js";
 
-
-
 const routes = { /*objeto con distintas propiedades *///eslint-disable-line
   '/': home,
   '/contrata': contrata,
   '/atc': atc,
- 
 };
 
 const rootDiv = document.getElementById('root');

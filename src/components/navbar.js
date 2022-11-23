@@ -1,4 +1,6 @@
 import {onNavigate} from '../routes/app.js';
+import {popup} from './popup.js';
+
 
 export function navbarHome() {
   const navContainer = document.createElement('nav');
@@ -9,8 +11,10 @@ export function navbarHome() {
   navContact.src = '../assets/phone.png';
   navContact.alt = "Telephone";
   navContact.addEventListener('click', () => {
-    onNavigate('/contact');
-  });
+    navContainer.appendChild(popup())
+  }); 
+
+  
   const navLogo = document.createElement('img');
   navLogo.classList.add('img-logo');
   navLogo.src = '../assets/megacable.png';

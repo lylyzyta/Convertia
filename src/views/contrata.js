@@ -23,7 +23,12 @@ function contrata() {
   const contrataParagraphTree = document.createElement('p');
   contrataParagraphTree.classList.add('contrata-p-tree');
   contrataParagraphTree.textContent = 'Desde $499 al mes';
-
+  const buttonGet = document.createElement('button');
+  buttonGet.classList.add('button-get');
+  buttonGet.textContent = 'Lo quiero';
+  buttonGet.addEventListener('click', () => {
+    onNavigate('/');
+  });
 
   const contrataContainerRight = document.createElement('div');
   contrataContainerRight.classList.add('contrata-container-right');
@@ -41,7 +46,7 @@ function contrata() {
   const contrataFormInput = document.createElement('input');
   contrataFormInput.classList.add('contrata-form-input');
   contrataFormInput.type = "txt"; contrataFormInput.value = "Tu teléfono";
-   const  contrataFormAcceptCheck = document.createElement('input');
+  const  contrataFormAcceptCheck = document.createElement('input');
   contrataFormAcceptCheck.classList.add('contrata-form-accept-check');
   contrataFormAcceptCheck.setAttribute("type", "checkbox");
   const  contrataFormAcceptP = document.createElement('p');

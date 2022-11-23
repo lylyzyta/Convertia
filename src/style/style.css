@@ -96,8 +96,6 @@ body {
     color: white;
     border: 3px solid #FFFFFF;
     border-radius: 4px;
-    position: absolute;
-    z-index: 1;
 }
 
 .button-atc {
@@ -109,8 +107,6 @@ body {
     border: 4px solid #FF6A00;
     border-radius: 4px;
     color: #FF6A00;
-    position: absolute;
-    z-index: 1;
 }
 
 /*contrata*/
@@ -570,5 +566,117 @@ body {
         align-items: center;
     }
     
+/*Popup*/
+.overlay {
+    width: 99vw;
+    height: 185vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.9; 
+}
+  
+  .popup {
+    display: grid;
+    grid-template-rows: 35% 20% 12% 5% 5% 5% ;
+    align-items: flex-end;
+    border-radius:100%;
+    min-height: 74vh;
+    min-width: 37em;
+    position: relative;
+    margin-top: 700px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  
+  .btn-close-popup{
+    display: block;
+    color: #AAAAAA;
+    cursor: pointer;
+    margin-left: 1000px;
+    margin-top: 60px;
+    font-size: 1.5em;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 1.5em;
+    height: 1.5em;
+    border: 3px solid #AAAAAA;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    opacity: 1;
+  }
+  
+  .btn-close-popup:hover {
+    color: #113246;
+    
+  }
+  
+  .popup-title-data{
+     text-align: center;
+    font: normal normal bold 41px/49px Roboto;
+    letter-spacing: 0px;
+    color: #0063BC;
+    
+    opacity: 1;
+  }
 
+  .popup-data-paragraph{
+    margin-left: 78px;
+    width: 450px;
+    height: 60px;
+    text-align: center;
+    font: normal normal bold 25px/30px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+
+    
+  .popup-form-input {
+    margin-left: 127px;
+    width: 319px;
+    height: 42px;
+    font: normal normal bold 9px/10px Arial;
+    letter-spacing: 0px;
+    color: #BFB8AE;
+    border: 3px solid #777777;
+}
+  
+  
+  .popup-form-accept-check {
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    margin-left: 137px;
+}
+
+.popup-form-acceptP {
+    text-align: left;
+    margin-left: 155px;
+    font: normal normal bold 9px/10px Arial;
+    letter-spacing: 0px;
+    color: #BFB8AE;
+    margin-bottom: 30px;
+}
+
+.button-call-me{
+    width: 319px;
+    height: 42px;
+    text-align: center;
+    font: normal normal bold 17px/20px Roboto;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #FF6A00 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 127px;
+}
+  
+  
 }
