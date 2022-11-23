@@ -36,8 +36,8 @@ equipo de consultores.
 
 + A partir del siguiente Diseño
 
-![p_diseño1](src/assets/Diseño1.png)
-![p_diseño2](src/assets/Diseño2.png)
+![p_diseño1](src/assets/Dise%C3%B1o1.JPG)
+![p_diseño2](src/assets/Dise%C3%B1o2.JPG)
 
 + El diseño de la página se ha creado en su versión desktop, pero es primordial que tomes en cuenta la versión mobile, ya que el mayor porcentaje de nuestro tráfico procede desde estos dispositivos. Por lo tanto pedimos los dos formatos de forma obligatoria, tanto mobile como desktop.
 
